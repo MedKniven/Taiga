@@ -1,0 +1,28 @@
+Wish-list:
+- Drag and drop item handling
+- Loading screen
+
+TODO:
+- Movement sprites (Running)
+- Attacking sprites (Unarmed(jabbing/stabbing, can be used for knife), meleeweapon, pistol, rifle/big gun), 
+  most can be two animation sprites, no idle sprite? Must display equiped weapon in UI then.
+- Health system (UI update, get/set health,  armor calculation) 
+- Persistent stats on saved game.
+- Menu system...
+- Dialogue system
+- - Interaction dialogue (dialogue GO inherits from talkable inherits from interactable)
+
+Pipeline:
+- Map editing with bitmaps
+- Movement (Running) [Just add a onButton and change bool isRunning, and change movespeed]
+
+Working:
+- Movement (Walking)
+- Dynamic sprite change on animation event
+- Camera control
+- Item pickup
+- Item equip
+- Item use
+- UI equipped inventory
+
+Done:
